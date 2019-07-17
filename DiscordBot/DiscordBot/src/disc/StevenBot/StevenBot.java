@@ -21,7 +21,7 @@ public class StevenBot {
 		builder.addEventListener(new GuildMemberLeave());
 		builder.addEventListener(new GuildMessageReceived());
 		builder.addEventListener(new Reminder());
-		
+		builder.addEventListener(new Roll());
 		builder.build();
 		
 	}
