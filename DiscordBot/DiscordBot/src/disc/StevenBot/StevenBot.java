@@ -12,7 +12,7 @@ public class StevenBot {
 	
 	public static void main(String[] args) throws LoginException{
 		JDABuilder builder = new JDABuilder();
-		builder.setToken("NTk5ODIzOTg1MjYxMTUwMjA4.XSv-Vg.Dhbiv8yvjVvTYP5C7Z9hsbRllYw");
+		builder.setToken("");
 		builder.setStatus(OnlineStatus.IDLE);
 		builder.setGame(Game.playing("Work in Progress"));
 		builder.addEventListener(new Commands());
